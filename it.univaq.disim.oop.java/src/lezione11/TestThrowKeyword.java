@@ -18,6 +18,7 @@ public class TestThrowKeyword {
         catch ( IOException e ) {
             System.out.println("Errore nel file nel main!");
         }
+        System.out.println("Sono fuori il try/catch nel main");
     }
     private static void readFile( String filename ) throws FileNotFoundException, IOException {
         BufferedReader reader = null;
@@ -37,8 +38,12 @@ public class TestThrowKeyword {
 	            System.out.println("Errore nel file!");
 	            throw e;
 	        }
+        catch ( ArithmeticException e) {
+        	System.out.println("Errore aritmetico!");
+        }
 
 	    finally {
+	       System.out.println("Sono nel finally");
            if ( reader != null ) {
                 try {
                     reader.close();
@@ -48,5 +53,6 @@ public class TestThrowKeyword {
                 }
             }
 	    }
+        System.out.println("Sono fuori in try/catch");
     }
 }

@@ -17,10 +17,10 @@ public class OnOffSwitch {
       f();
       sw.off();
     } catch(OnOffException1 e) {
-      System.err.println("OnOffException1");
+      System.out.println("OnOffException1*");
       sw.off();
     } catch(OnOffException2 e) {
-      System.err.println("OnOffException2");
+      System.out.println("OnOffException2");
       sw.off();
     }
   }

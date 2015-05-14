@@ -9,11 +9,11 @@ public class WithFinally2 {
 	  try {
 		  throw new IOException();
 	  } catch (FileNotFoundException e) {
-		// TODO: handle exception
+		  System.out.println("catch in f()");
 	  } finally {
-		  System.out.println("finally in f()");
-	  }
-		
+		  System.out.println("finally in f()"); //viene prima eseguito questo finally, 
+		  										//mentre l'handler eseguito sarà quello nel metogo g()
+	  }		
 	} 
 	
 	public static void g() {

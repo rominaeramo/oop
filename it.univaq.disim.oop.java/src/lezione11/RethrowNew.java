@@ -1,13 +1,11 @@
 package lezione11;
 
-
 class AinCatch {
 
 	public void sampleMethod() {
 		System.out.println("sampleMethod()");
 	}
 }
-
 
 class OneException extends Exception {
   public OneException(String s) { super(s); }

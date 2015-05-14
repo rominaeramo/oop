@@ -15,7 +15,7 @@ public class Rethrowing {
     } catch(Exception e) {
       System.err.println("Inside g(),e.printStackTrace()");
       e.printStackTrace(); //da informazioni sulla sequenza di metodi chiamati fino al punto in cui si verifica l'eccezione
-     throw e;
+      throw e;
     }
   }
   public static void main(String[] args)  {

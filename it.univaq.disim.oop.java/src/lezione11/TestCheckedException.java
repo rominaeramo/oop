@@ -4,7 +4,6 @@ import java.io.*;
 
 public class TestCheckedException {
 	
-
 	public static void f() {
 		System.out.println("Sono f()");
 	}
