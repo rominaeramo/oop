@@ -10,7 +10,7 @@ public class CatsAndDogsGenerics {
 		for(int i = 0; i < 7; i++)
 			cats.add(new Cat(i));
 
-		//!cats.add(new Dog(7));
+		//cats.add(new Dog(7));
 	
 		for(int i = 0; i<cats.size(); i++)
 			//((Cat)cats.get(i)).id(); Il cast non e' piu' necessario

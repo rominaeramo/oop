@@ -1,6 +1,5 @@
 package lezione9;
 
-
 abstract class Glyph {
   //public int radius = 4; //(1)
   abstract void draw();
@@ -21,7 +20,7 @@ class RoundGlyph extends Glyph {
   void draw() {
     System.out.println(
     		"RoundGlyph.draw(), radius = " + radius);
-  //   "RoundGlyph.draw(), radius = " + super.radius); //(1)
+    		//"RoundGlyph.draw(), radius = " + super.radius); //(1)
   }
 }
 

@@ -1,6 +1,5 @@
 package lezione6.Greek;
 
-
 class Beta {
     void accessMethod() {
         Alpha a = new Alpha();

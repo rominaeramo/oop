@@ -105,14 +105,14 @@ public class DynamicFields {
       df.setField("number3", new Integer(11));
       System.out.println(df);
       System.out.println(df.getField("d"));
+      
       Object field = df.getField("a3"); // Exception
 
      // Object field = df.getField("number3"); 
      // System.out.println(field);
       
      // df.setField("number4", null);
-      
-      
+            
     } catch(NoSuchFieldException e) {
     	throw new RuntimeException(e);
     } catch(DynamicFieldsException e) {

@@ -1,8 +1,10 @@
 package lezione6;
 
 class Sundae {
-	  private Sundae() {}
 	  private int j;
+	  
+	  private Sundae() {}
+	  
 	  static Sundae makeASundae() {
 		return new Sundae();
 	  }

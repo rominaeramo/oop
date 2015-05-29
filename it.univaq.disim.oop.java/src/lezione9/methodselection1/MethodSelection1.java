@@ -23,7 +23,6 @@ class C extends B {
 	
 }
 
-
 public class MethodSelection1  {
 	
 	public static void main(String args[]){		
@@ -39,13 +38,10 @@ public class MethodSelection1  {
 		System.out.println("a2.method(a1) vale " + a2.method(a1));
 		System.out.println("a2.method(a2) vale " + a2.method(a2));
 		System.out.println("a2.method(a3) vale " + a2.method(a3));
-		
-		
-		
+	
 		System.out.println("a3.method(a1) vale " + a3.method(a1));
 		System.out.println("a3.method(a2) vale *" + a3.method(a2));
 		System.out.println("a3.method(a3) vale " + a3.method(a3));
-		
 		
 		System.out.println("a4.method(a4) vale " + a4.method(a4));
 		

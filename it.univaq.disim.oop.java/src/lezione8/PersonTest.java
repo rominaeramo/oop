@@ -71,6 +71,7 @@ public class PersonTest {
    public static void main(String[] args) {  
 	  
 	  //Person p = new Student("n", "m");
+	  //Person p2 = new Person("pippo");
 	  
       Person[] people = new Person[2];
       

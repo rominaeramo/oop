@@ -9,7 +9,7 @@ public class PrivateOverride {
   //  System.out.println("private f()");
   //}		
   
-private void f() {
+private final void f() {
     System.out.println("private f()");
   }
   public static void main(String[] args) {

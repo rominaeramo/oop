@@ -2,8 +2,6 @@ package lezione10;
 
 import java.util.*;
 
-
-
 interface AgendaUser {
 	void update(Appointment a);
 }

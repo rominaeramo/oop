@@ -16,10 +16,6 @@ class B extends A {
 
 	
 public class MethodSelection3 {
-
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		A a1 = new A();
 		B a2 = new B();

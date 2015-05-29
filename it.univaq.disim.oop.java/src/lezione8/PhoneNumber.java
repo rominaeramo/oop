@@ -31,9 +31,9 @@ public final class PhoneNumber {
 	  
 	
 	   //Prova a commentare la definizione del metodo
-	   public String toString() {
+	   /*public String toString() {
 		   return "("+ areaCode +")" + exchange + "-" + extension;
-	   }
+	   }*/
 	 
 	   
 }

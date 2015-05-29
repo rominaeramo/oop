@@ -10,7 +10,7 @@ public class ManagerTest1 {
 		  	employee = new Manager("Carl Cracker", 80000, 1987, 12, 15);
 		  }
 
-	     //  employee.setBonus(5000); //ERRORE
+	      //employee.setBonus(5000); //ERRORE
 	    
 		  if (employee instanceof Manager)
 			  ((Manager)employee).setBonus(10000);

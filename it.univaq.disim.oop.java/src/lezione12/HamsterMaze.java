@@ -13,9 +13,9 @@ public class HamsterMaze {
 	    for(int i= 0; i<3; i++)
 	    		cats.add(new Cat(i));
 	    
-	    Printer.printAll(list.iterator()); 
-	    Printer.printAll(cats.iterator());
-	    //Printer.printAll(list);
+	    //Printer.printAll(list.iterator()); 
+	    //Printer.printAll(cats.iterator());
+	    Printer.printAll(list);
 	    //Printer.printAll(cats);
 	    
 	}

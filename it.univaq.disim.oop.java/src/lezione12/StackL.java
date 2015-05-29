@@ -11,7 +11,6 @@ public class StackL {
   public Object pop() { return list.removeFirst(); }
   public static Random gen = new Random();
   
-
   public String toString() {
 	ListIterator listIterator = list.listIterator();
 	StringBuffer s = new StringBuffer();

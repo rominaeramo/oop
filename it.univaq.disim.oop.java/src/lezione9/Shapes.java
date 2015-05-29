@@ -1,8 +1,6 @@
 package lezione9;
 
-
 import java.util.*;
-
 
 /*
  * La classe Shape stabilisce l'interfaccia comune per qualsiasi classe ereditata da essa.

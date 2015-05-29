@@ -27,7 +27,7 @@ public class ManagerTest3 {
 		}
 		System.out.println(e.getSalary());
 		
-		// Manager m = e; //errore in compilazione
+		//Manager m = e; //errore in compilazione
 		Manager m = (Manager) e;  
 		m.setBonus(50);
 	}

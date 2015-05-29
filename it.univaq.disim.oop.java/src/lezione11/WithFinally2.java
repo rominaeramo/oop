@@ -8,7 +8,8 @@ public class WithFinally2 {
 	public static void f() throws IOException {
 	  try {
 		  throw new IOException();
-	  } catch (FileNotFoundException e) {
+	  } 
+	  catch (FileNotFoundException e) {
 		  System.out.println("catch in f()");
 	  } finally {
 		  System.out.println("finally in f()"); //viene prima eseguito questo finally, 

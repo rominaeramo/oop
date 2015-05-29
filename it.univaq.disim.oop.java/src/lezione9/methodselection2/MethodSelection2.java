@@ -18,10 +18,6 @@ class B extends A  {
 
 	
 public class MethodSelection2 {
-
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		A  a1 = new A ();
 		B  a2 = new B ();
@@ -37,7 +33,7 @@ public class MethodSelection2 {
 		System.out.println("a3.method(a1) vale " + a3.method(a1));
 		System.out.println("a3.method(a2) vale *" + a3.method(a2));
 		
-		//System.out.println("a3.method(a2) vale " + a3.method2(a2));
+		//System.out.println("a3.method2(a2) vale " + a3.method2(a2));
 		System.out.println("a3.method(a3) vale " + a3.method(a3));
 		
 	}

@@ -11,11 +11,11 @@ public class CatsAndDogsWithGenerics {
       cats.add(new Cat(i));
     
     cats.add(new Cat(7));
-    //!cats.add(new Dog(10));
+    //cats.add(new Dog(10));
     
     
     for(int i = 0; i < cats.size(); i++)
-    	((Cat)cats.get(i)).id();
+    	(cats.get(i)).id();
     
   }
 } 

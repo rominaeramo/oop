@@ -18,11 +18,11 @@ public class Set1 {
     System.out.println(
       s.getClass().getName().replaceAll("\\w+\\.", ""));
     
-    fill(s); fill(s); fill(s); fill2(s);
+    fill(s); //fill(s); fill(s); fill2(s);
     
     System.out.println(s); // No duplicates!
     
-    // Add another set to this one:
+    /* Add another set to this one:
     s.addAll(s);
     s.add("one");
     s.add("one");
@@ -31,7 +31,7 @@ public class Set1 {
     System.out.println(s);
     // Look something up:
     System.out.println("s.contains(\"one\"): " +
-      s.contains("one") );
+      s.contains("one") );*/
     
    
   }
