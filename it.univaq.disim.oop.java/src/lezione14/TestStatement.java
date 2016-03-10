@@ -13,8 +13,9 @@ public class TestStatement {
     public static void main( String[] args ) {
         try {
             Class.forName( DRIVER_NAME );
-
-            Connection connection = DriverManager.getConnection( args[ 0 ], args[ 1 ], args[ 2 ] );
+            Connection connection = DriverManager.getConnection( "jdbc:mysql://localhost:3306/javalibrary", "root", "root" );
+            //Connection connection = DriverManager.getConnection( args[ 0 ], args[ 1 ], args[ 2 ] );
+           
             Statement statement = connection.createStatement();
             ResultSet resultSet = statement.executeQuery( SQL );
             
@@ -30,13 +31,13 @@ public class TestStatement {
            
           String stringParam = new String("prova_descrizione2");
         
-          /*
-         SQL ="INSERT INTO javalibrary.title_kind " + 
+          
+         /*SQL ="INSERT INTO javalibrary.title_kind " + 
              	   "VALUES (1 , 'kind_prova')";
            
           
-             statement.executeUpdate(SQL);
-         */
+         statement.executeUpdate(SQL);*/
+         
           
           SQL ="INSERT INTO javalibrary.title " + 
           	   "VALUES (NULL , 'titolo_prova', 1, '" + stringParam + "' , 'prova_autore2', 'prova_isbn2')";

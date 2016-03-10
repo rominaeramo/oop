@@ -14,5 +14,6 @@ public class RaceTest {
         }
         for (int i = 0; i < NUMRUNNERS; i++)
             runners[i].start();
+        System.out.println("main");	
     }
 }

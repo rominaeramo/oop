@@ -20,7 +20,7 @@ class Watcher extends Thread {
 
 	public class AlwaysEven {
 	  private int i;
-	  public synchronized void next() { i++; i++; }
+	  public void next() { i++; i++; }
 	  public int getValue() { return i; }
 
 	  public static void main(String[] args) {

@@ -15,7 +15,8 @@ public class TestPreparedStatement {
         try {
             Class.forName( DRIVER_NAME );
 
-            Connection connection = DriverManager.getConnection(args[ 0 ], args[ 1 ], args[ 2 ] );
+            //Connection connection = DriverManager.getConnection(args[ 0 ], args[ 1 ], args[ 2 ] );
+            Connection connection = DriverManager.getConnection( "jdbc:mysql://localhost:3306/javalibrary", "root", "root" );
             PreparedStatement preparedStatement =  connection.prepareStatement( SQL );
             preparedStatement.setString( 1, "titolo_prova");
             ResultSet resultSet = preparedStatement.executeQuery();

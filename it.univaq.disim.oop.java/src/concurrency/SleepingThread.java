@@ -19,7 +19,7 @@ public class SleepingThread extends Thread {
 	      System.out.println(this);
 	      if(--countDown == 0) return;
 	      try {
-	        sleep(1000);
+	        sleep(2000);
 	      } catch (InterruptedException e) {
 	        throw new RuntimeException(e);
 	      }
@@ -28,7 +28,8 @@ public class SleepingThread extends Thread {
 
 	  public static void main(String[] args) throws InterruptedException {
 	    for(int i = 0; i < 5; i++)
-	      new SleepingThread().join();
+	      new SleepingThread();	
+	      //new SleepingThread().join();
 	  }
 	  
 	  
